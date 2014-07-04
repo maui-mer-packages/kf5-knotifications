@@ -9,7 +9,7 @@ Name:       kf5-knotifications
 # << macros
 
 Summary:    KDE Frameworks 5 Tier 2 solution for notifications
-Version:    4.100.0
+Version:    5.0.0
 Release:    1
 Group:      System/Base
 License:    GPLv2+
