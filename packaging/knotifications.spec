@@ -32,6 +32,7 @@ BuildRequires:  pkgconfig(Qt5X11Extras)
 BuildRequires:  kf5-rpm-macros
 BuildRequires:  extra-cmake-modules
 BuildRequires:  qt5-tools
+BuildRequires:  qt5-qttools-linguist
 BuildRequires:  kwindowsystem-devel
 BuildRequires:  kservice-devel
 BuildRequires:  kconfig-devel
