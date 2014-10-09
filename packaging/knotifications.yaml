@@ -50,6 +50,9 @@ RequiresPost:
 RequiresPostUn:
     - /sbin/ldconfig
 
+LocaleName: knotifications5_qt
+LocaleOptions: "--with-qt --all-name || :"
+
 Files:
     - "%doc COPYING.LIB README.md"
     - "%{_kf5_libdir}/libKF5Notifications.so.*"
