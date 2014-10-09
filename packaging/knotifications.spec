@@ -10,7 +10,7 @@ Name:       knotifications
 
 Summary:    KDE Frameworks 5 Tier 2 solution for notifications
 Version:    5.3.0
-Release:    1
+Release:    2
 Group:      System/Base
 License:    GPLv2+
 URL:        http://www.kde.org
@@ -80,7 +80,9 @@ rm -rf %{buildroot}
 # >> install post
 # << install post
 
-%files
+%find_lang knotifications5_qt --with-qt --all-name || :
+
+%files -f knotifications5_qt.lang
 %defattr(-,root,root,-)
 %doc COPYING.LIB README.md
 %{_kf5_libdir}/libKF5Notifications.so.*
